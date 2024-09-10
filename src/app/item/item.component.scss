@@ -1,0 +1,24 @@
+.item{
+    background: rgb(57, 104, 165);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+button {
+    padding: 8px;
+    background: rgb(241, 13, 0);
+    color: white;
+    border: 2px solid rgb(15, 24, 60);
+    border-radius: 8px;
+}
+button :hover{
+    background: crimson;
+}
+.done{
+    color: rgb(121, 229, 121);
+}

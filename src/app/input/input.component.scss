@@ -1,0 +1,23 @@
+.item-input{
+    display: flex;
+    align-items: center;
+}
+input{
+    flex-grow: 1;
+    margin-right: 12px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button {
+    font-size: 20px;
+    padding: 8px;
+    background: rgb(58, 249, 109);
+    color: black;
+    border: 3px solid rgb(162, 248, 192);
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(0, 203, 0);
+}
